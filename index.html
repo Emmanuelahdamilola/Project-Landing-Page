@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Task</title>
+
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-purple">
+        <div class="container">
+          <a class="navbar-brand text-white fs-2 fw-bold" href="#">Smart Task</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto pe-3">
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-6" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <div>
+              <button id="theme-toggle" class="border-0 bg-transparent me-3"><i class='bx bxs-moon fs-4'></i></button>
+              </div>
+          </div>
+          
+        </div>
+        
+      </nav>
+    </header>
+    <section class="banner position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 banner-text">
+            <h1 class="fw-bolder display-3">
+              Achieve More Every Day with SmartTask 
+            </h1>
+            <p class="fs-2">Your Task Management Solution</p>
+            <div class="d-flex align-items-center mt-4">
+                <button class="btn bg-purple me-4 text-white">Learn More..</button>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 banner-image ">
+            <img src="/public/images/banner.png" alt="" class="position-absolute top-50 end-0 translate-middle-y">
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="mt-0">
+        <path
+          fill="#d268cc"
+          fill-opacity="1"
+          d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,133.3C560,107,640,85,720,69.3C800,53,880,43,960,74.7C1040,107,1120,181,1200,192C1280,203,1360,149,1400,122.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+   
+    <section class="container features " id="features">
+        <div class="features-content">
+           <div class="d-flex justify-content-center mb-5">
+            <h3 class="text-center">Explore our three key features designed to transform your task management experience</h2>
+           </div>
+            <div class="row g-3">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body">
+                          <div class="image">
+                            <img src="/public/images/image01.png" alt="">
+                          </div>
+                          <h5 class="card-title text-center fw-bolder">Task Creation and Organization</h5>
+                          <p class="card-text text-center">SmartTask empowers you to create tasks effortlessly. Organize your to-do list with ease, creating a structured and efficient workflow. Stay in control of your tasks, ensuring nothing gets overlooked.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body">
+                          <div class="image">
+                            <img src="/public/images/image02.png" alt="">
+                          </div>
+                          <h5 class="card-title text-center fw-bolder">User-Friendly Interface</h5>
+                          <p class="card-text text-center">Navigating your tasks has never been easier. SmartTask boasts an intuitive design for seamless interaction. The user-friendly interface ensures a pleasant experience, allowing you to focus on your tasks without unnecessary complexity.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body">
+                          <div class="image">
+                            <img src="/public/images/image03.png" alt="">
+                          </div>
+                          <h5 class="card-title text-center fw-bolder">Deadline Reminders</h5>
+                          <p class="card-text text-center">Never miss a deadline again. SmartTask keeps you on track with timely reminders for approaching deadlines. Receive notifications that help you stay proactive and ensure all your tasks are completed on time.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <p class="fs-5 text-center fw-light p-4">Ready to elevate your task management? Try SmartTask today and embrace a new era of productivity!</p>
+           
+        </div>
+
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="p-5"><h1 class="text-center display-6 fw-bolder text-purple">ABOUT US</h1></div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 ">
+            <img src="/public/images/image05.png" alt="" class="w-100">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 side-text">
+            <div class="p-3">
+              <h3>About SmartTask: Crafting Efficiency, One Task at a Time</h2>
+                <p>As a solo developer on this journey, SmartTask is more than just a project—it's a reflection of my personal quest for optimal productivity. The inspiration struck during the [Month/Year], fueled by the challenges I faced in managing tasks efficiently in my own life.</p>
+                <p>The inception of SmartTask traces back to those moments of frustration and the determination to find a solution. Through late nights and countless iterations, I shaped SmartTask to be a tool that not only meets my needs but also serves as a companion for others striving to streamline their task management.</p>
+                <p>While SmartTask is born out of personal inspiration, it also stands as a proud achievement within my educational journey at Holberton School. This project is not just a requirement; it's a testament to my growth and application of skills in a practical setting. Explore the evolution of SmartTask within my <a href="https://www.holbertonschool.com/" class="text-purple">Holberton School</a> Portfolio.</p>
+            </div>
+
+        
+          </div>
+        </div>
+        <div class="connect">
+          <h3 class="text-center text-pink">Connect with Me</h2>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="#" class="me-4">
+                <img src="/public/images/linkedin.png" alt="">
+              </a>
+              <a href="#" class="me-4">
+                <img src="/public/images/twitter.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/public/images/github.png" alt="">
+              </a>
+            </div>
+            <p class="text-center p-3 my-4 fs-4">Feel free to reach out, connect, or share your thoughts on SmartTask. Your feedback is invaluable as I continue to refine and enhance this project.</p>
+             
+        </div>
+      </div>
+    </section>
+    <div class="bg-purple px-5 py-3 text-center text-white">
+      <h5>Discover the inner workings of SmartTask on the GitHub repository. Dive into the code, explore the commits, and join me in making SmartTask a tool that truly resonates with solo developers and task enthusiasts alike</h5>
+    </div>
+
+    <footer class="bg-dark">
+ <p class="text-purple p-2 text-center">&copy;smart task 2024</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/public/js/main.js"></script>
+  </body>
+</html>

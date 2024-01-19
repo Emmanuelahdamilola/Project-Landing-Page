@@ -1,0 +1,129 @@
+/* Variables */
+:root {
+  --primary: #d268cc;
+  --green: #40ea95;
+  --blue: #4098ea;
+  --business: #ea40a4;
+  --light: #eee;
+  --white: #fff;
+  --grey: #888;
+  --dark: #313154;
+  --danger: #ff5b57;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  --business-glow: 0px 0px 4px rgba(238, 58, 229, 0.75);
+  --personal-glow: 0px 0px 4px rgba(220, 64, 234, 0.75);
+  --coding-glow: 0px 0px 4px hsla(150, 80%, 58%, 0.749);
+  --shopping-glow: 0px 0px 4px rgba(64, 152, 234, 0.856);
+}
+.bg-purple{
+  background-color: var(--primary) !important;
+}
+.bg-pink{
+  background-color: var(--business) !important;
+}
+.bg-red{
+  background-color: var(--danger) !important;
+}
+.bg-green{
+  background-color: var(--green) !important;
+}
+.bg-white{
+  background-color: var(--white);
+}
+.bg-light{
+  background-color: var(--light);
+}
+.text-purple{
+  color: var(--primary);
+}
+.text-pink{
+  color: var(--business);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+section.banner {
+  min-height: 400px;
+  padding-top: 100px;
+}
+section.banner .banner-image img{
+  width: 400px;
+  height: 700px;
+}
+/* Light Theme Styles */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+section.features{
+  min-height: 80vh;
+}
+section.features .features-content .card{
+  height: 300px;
+}
+section.features .features-content .card:hover{
+  box-shadow: 0 1px 5px var(--grey);
+  background-color: var(--primary);
+  color: var(--white);
+}
+section.features .features-content .card .image{
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  margin: 20px;
+} 
+section.features .features-content .card .image img{
+  width: 3rem;
+  height: 3rem;
+}
+section.about .connect img{
+  width: 2rem;
+}
+@media (max-width:699px){
+  section.banner {
+    height:100%;
+    padding-top: 20px;
+  }
+  section.banner .banner-image img{
+    width: 150px;
+    height: 300px;
+  }
+  .banner-text{
+    width: 60% !important;
+  }
+  .banner-image{
+    width: 40% !important;
+  }
+  .banner-text h1{
+    font-size: 30px;
+  }
+  .banner-text p{
+    font-size: 18px !important;
+  }
+  .features p{
+    font-size: 16px;
+  }
+  .about p{
+    font-size: 16px;
+  }
+}
